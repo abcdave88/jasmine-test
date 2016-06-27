@@ -24,7 +24,7 @@
               synopsis = obj.synopsis,
               episodeNum = obj.moreEpisodesLabel
           
-          $('.content-contain').append('<div class="col-md-6"><h2>'+title+'</h2><img src="'+image+'" class="img-responsive"><p>'+synopsis+'</p><div class="col-md-4"><p>Channel: '+channel+'</p></div><div class="col-md-4"><p>Duration: '+duration+'</p></div><div class="col-md-4"><p>'+episodeNum+'</p></div></div>')
+          $('.content-contain').append('<div class="col-md-6 content-item"><h2>'+title+'</h2><img src="'+image+'" class="img-responsive"><p>'+synopsis+'</p><div class="col-md-4"><p>Channel: '+channel+'</p></div><div class="col-md-4"><p>Duration: '+duration+'</p></div><div class="col-md-4"><p>'+episodeNum+'</p></div></div>')
         })
       })
     }
